@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Loader from './loader'
+import Container from './containers'
 
 class App extends React.Component {
     render() {
         return (
-            <Loader />
+            <Container />
         )
     }
 }
