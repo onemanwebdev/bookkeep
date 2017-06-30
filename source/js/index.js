@@ -1,9 +1,11 @@
-const css = require('../scss/style.scss');
+require('../scss/style.scss');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import App from './app';
+
 ReactDOM.render(
-    <div>You Grand-parent conatiner-component here!</div>,
+    <App />,
     document.getElementById('root')
 );
