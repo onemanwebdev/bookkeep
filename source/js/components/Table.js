@@ -27,6 +27,9 @@ class Table extends React.Component {
                         </thead>
                         <tbody>
                             <tr>
+                                <td colSpan="13">
+                                    {`You select: ${this.props.month} ${this.props.year}`}
+                                </td>
                             </tr>
                         </tbody>
                     </table>
