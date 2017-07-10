@@ -1,6 +1,7 @@
 import React from 'react'
 /*import ContentTable from './ContentTable'*/
-import * as string from '../constants/strings'
+import * as string from '../constants/strings';
+import api from '../services/api';
 
 class Table extends React.Component {
     render() {
@@ -29,6 +30,9 @@ class Table extends React.Component {
                             <tr>
                                 <td colSpan="13">
                                     {`You select: ${this.props.month} ${this.props.year}`}
+                                </td>
+                                <td>
+                                    {console.log(api)}
                                 </td>
                             </tr>
                         </tbody>
